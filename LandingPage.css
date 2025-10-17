@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
@@ -495,7 +495,7 @@ body {
     font-weight: 700;
 }
 
-/* Banner Ad Styles - UPDATED */
+/* Banner Ad Styles - FIXED */
 .banner-ad {
     position: fixed;
     bottom: 20px;
@@ -633,14 +633,13 @@ body {
     color: #fff;
 }
 
-/* IMPORTANT: Add this to make the page scrollable */
 html, body {
     height: 100%;
     overflow-x: hidden;
 }
 
 body {
-    min-height: 120vh; /* Makes body taller to enable scrolling */
+    min-height: 120vh;
 }
 
 /* Tablet and below */
@@ -683,7 +682,7 @@ body {
 @media (max-width: 768px) {
     body {
         padding: 0;
-        min-height: 150vh; /* Even taller on mobile */
+        min-height: 150vh;
     }
 
     .banner-ad {
